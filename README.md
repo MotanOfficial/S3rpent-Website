@@ -1,11 +1,11 @@
-# S3rp3nt Website
+# S3rpent Website
 
-Modern website showcasing the S3rp3nt app suite, built with SvelteKit and deployed to GitHub Pages.
+Modern website showcasing the S3rpent app suite, built with SvelteKit and deployed to GitHub Pages.
 
 ## 🚀 Features
 
 - Modern, responsive design
-- Showcases S3rp3nt Media and S3rp3nt Vision applications
+- Showcases S3rpent Media and S3rpent Vision applications
 - Automatic deployment via GitHub Actions
 - Optimized for GitHub Pages
 
@@ -40,7 +40,7 @@ Modern website showcasing the S3rp3nt app suite, built with SvelteKit and deploy
    git init
    git add .
    git commit -m "Initial commit"
-   git remote add origin https://github.com/YOUR_USERNAME/s3rp3nt_website.git
+   git remote add origin https://github.com/YOUR_USERNAME/s3rpent_website.git
    git push -u origin main
    ```
 
@@ -55,7 +55,7 @@ Modern website showcasing the S3rp3nt app suite, built with SvelteKit and deploy
 The repository includes a GitHub Actions workflow (`.github/workflows/deploy.yml`) that:
 - Automatically builds the site on every push to `main`/`master`
 - Deploys to GitHub Pages
-- Uses the correct base path (`/s3rp3nt_website`)
+- Uses the correct base path (`/s3rpent_website`)
 
 ### Manual Deployment
 
@@ -75,7 +75,7 @@ If you need to deploy manually:
 ### Base Path
 
 The base path is configured in `svelte.config.js`:
-- Production: `/s3rp3nt_website` (matches your repository name)
+- Production: `/s3rpent_website` (matches your repository name)
 - Development: `` (empty, for local development)
 
 If your repository name is different, update the `paths.base` in `svelte.config.js`.
@@ -83,7 +83,7 @@ If your repository name is different, update the `paths.base` in `svelte.config.
 ## 📝 Project Structure
 
 ```
-s3rp3nt_website/
+s3rpent_website/
 ├── .github/
 │   └── workflows/
 │       └── deploy.yml          # GitHub Actions deployment workflow

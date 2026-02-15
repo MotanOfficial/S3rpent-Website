@@ -22,10 +22,10 @@
 
 	const apps: App[] = [
 		{
-			name: 'S3rp3nt Media',
+			name: 'S3rpent Media',
 			subtitle: 'Universal Media Viewer',
 			description: 'A modern, feature-rich media viewer built with Qt 6, designed to provide a beautiful and immersive experience for viewing images, videos, audio files, documents, and more.',
-			details: 'Experience media like never before with dynamic color extraction, real-time visualizations, and GPU-accelerated effects. S3rp3nt Media adapts to your content, creating an immersive viewing experience that matches the mood and colors of your media.',
+			details: 'Experience media like never before with dynamic color extraction, real-time visualizations, and GPU-accelerated effects. S3rpent Media adapts to your content, creating an immersive viewing experience that matches the mood and colors of your media.',
 			features: [
 				{
 					title: 'Universal Media Support',
@@ -80,14 +80,14 @@
 				}
 			],
 			tech: ['Qt 6', 'QML', 'C++', 'OpenGL', 'WASAPI', 'FFmpeg'],
-			github: 'https://github.com/MotanOfficial/s3rp3nt_media',
+			github: 'https://github.com/MotanOfficial/s3rpent_media',
 			icon: 'film'
 		},
 		{
-			name: 'S3rp3nt Vision',
+			name: 'S3rpent Vision',
 			subtitle: 'Windows Shell Extension',
 			description: 'A Windows Shell Extension that provides PDF, WebP, and WebM thumbnails in Windows Explorer using PDFium, libwebp, and libvpx.',
-			details: 'Enhance your Windows Explorer experience with beautiful thumbnails for PDF, WebP, and WebM files. S3rp3nt Vision integrates seamlessly into Windows, providing instant visual previews of your files directly in Explorer.',
+			details: 'Enhance your Windows Explorer experience with beautiful thumbnails for PDF, WebP, and WebM files. S3rpent Vision integrates seamlessly into Windows, providing instant visual previews of your files directly in Explorer.',
 			features: [
 				{
 					title: 'Thumbnail Generation',
@@ -130,7 +130,7 @@
 				}
 			],
 			tech: ['C++', 'Windows COM', 'PDFium', 'libwebp', 'libvpx', 'CMake'],
-			github: 'https://github.com/MotanOfficial/S3rp3nt_Vision',
+			github: 'https://github.com/MotanOfficial/S3rpent_Vision',
 			icon: 'eye'
 		}
 	];
@@ -179,8 +179,8 @@
 </script>
 
 <svelte:head>
-	<title>S3rp3nt - Modern App Suite</title>
-	<meta name="description" content="S3rp3nt - A collection of modern, feature-rich applications for media viewing and Windows integration." />
+	<title>S3rpent - Modern App Suite</title>
+	<meta name="description" content="S3rpent - A collection of modern, feature-rich applications for media viewing and Windows integration." />
 	<style>
 		@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Outfit:wght@100..900&display=swap');
 	</style>
@@ -206,11 +206,11 @@
 			<div class="hero-content">
 				<div class="hero-title-wrapper">
 					<h1 class="hero-title">
-						<span class="gradient-text">S3rp3nt</span>
+						<span class="gradient-text">S3rpent</span>
 					</h1>
 					<img
 						src={`${base}/logo.png`}
-						alt="S3rp3nt Logo"
+						alt="S3rpent Logo"
 						class="hero-logo"
 					/>
 				</div>
@@ -224,13 +224,13 @@
 					Built with modern technologies and attention to detail.
 				</p>
 				<div class="hero-buttons">
-					<a href="https://github.com/MotanOfficial/s3rp3nt_media" target="_blank" rel="noopener noreferrer" class="hero-button hero-button-primary">
+					<a href="https://github.com/MotanOfficial/s3rpent_media" target="_blank" rel="noopener noreferrer" class="hero-button hero-button-primary">
 						<i class="fas fa-film"></i>
-						Try S3rp3nt Media
+						Try S3rpent Media
 					</a>
-					<a href="https://github.com/MotanOfficial/S3rp3nt_Vision" target="_blank" rel="noopener noreferrer" class="hero-button hero-button-secondary">
+					<a href="https://github.com/MotanOfficial/S3rpent_Vision" target="_blank" rel="noopener noreferrer" class="hero-button hero-button-secondary">
 						<i class="fas fa-eye"></i>
-						Try S3rp3nt Vision
+						Try S3rpent Vision
 					</a>
 				</div>
 			</div>
@@ -318,7 +318,7 @@
 								<div class="download-content">
 									<h3 class="section-heading">Ready to try it?</h3>
 									<p class="download-text">
-										S3rp3nt {app.name.split(' ')[1]} is free and open source.
+										S3rpent {app.name.split(' ')[1]} is free and open source.
 										Feel free to give it a try!
 									</p>
 									<a href={app.github} target="_blank" rel="noopener noreferrer" class="github-link">
