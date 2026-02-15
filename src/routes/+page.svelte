@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import { onMount } from 'svelte';
 
 	interface Feature {
@@ -208,7 +209,7 @@
 						<span class="gradient-text">S3rp3nt</span>
 					</h1>
 					<img
-						src="/logo.png"
+						src={`${base}/logo.png`}
 						alt="S3rp3nt Logo"
 						class="hero-logo"
 					/>

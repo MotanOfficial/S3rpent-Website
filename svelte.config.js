@@ -14,7 +14,7 @@ const config = {
 			strict: true
 		}),
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/s3rp3nt_website' : ''
+			base: process.env.NODE_ENV === 'production' ? '/S3rp3nt-Website' : ''
 		}
 	}
 };
